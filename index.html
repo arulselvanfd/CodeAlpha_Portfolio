@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arul Selvan N — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Roboto:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="preloader">
+  <div class="preload-mark">ARUL SELVAN N</div>
+  <div class="preload-bar"></div>
+</div>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<div class="noise-field"></div>
+<div class="grain"></div>
+<div class="spotlight" id="spotlight"></div>
+
+<nav id="mainNav">
+  <div class="logo"><span class="dot"></span> ARUL SELVAN N</div>
+  <div class="navlinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#background">Background</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+    <a class="nav-cta magnetic" href="#contact">Get in touch</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="orb">
+      <svg viewBox="0 0 400 400" class="orb-core">
+        <circle class="ring" cx="200" cy="200" r="16"/>
+        <circle class="ring" cx="200" cy="200" r="16"/>
+        <circle class="ring" cx="200" cy="200" r="16"/>
+      </svg>
+    </div>
+    <div class="eyebrow"><span class="live-dot"></span> Erode, Tamil Nadu — Available for opportunities</div>
+    <h1 class="name">
+      <span class="line"><span>Arul Selvan N</span></span>
+      <span class="line"><span>builds interfaces that read the room.</span></span>
+    </h1>
+    <p class="role-line">Frontend developer &amp; final-year B.Sc. Computer Science student. I turn <strong>React, Firebase and vision-model APIs</strong> into products people actually finish using — an AI website auditor, a live college election, a podcast platform built from scratch.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary magnetic" href="#work">View projects ↓</a>
+      <a class="btn btn-ghost magnetic" href="https://mail.google.com/mail/?view=cm&fs=1&to=connectwitharulselvan@gmail.com" target="_blank" rel="noopener">Say hello</a>
+      <a class="btn btn-outline magnetic" href="assets/Arul_Selvan_N_Resume.pdf" download>Download resume ↓</a>
+    </div>
+    <div class="hero-meta">
+      <div class="meta-item"><div class="num" data-count="3">0</div><div class="lbl">LIVE PROJECTS</div></div>
+      <div class="meta-item"><div class="num"><span data-count="280">0</span><span class="plus">+</span></div><div class="lbl">USERS REACHED</div></div>
+      <div class="meta-item"><div class="num" data-count="11">0</div><div class="lbl">CERTIFICATIONS</div></div>
+      <div class="meta-item"><div class="num" data-count="2027">0</div><div class="lbl">GRADUATION</div></div>
+    </div>
+  </div>
+  <div class="wrap scroll-cue"><div class="bar"></div> SCROLL</div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <div>
+        <div class="sec-title">About</div>
+        <div class="sec-sub">Signal in, interface out.</div>
+      </div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a frontend developer and final-year <strong>B.Sc. Computer Science</strong> student at Nandha Arts and Science College, based in Erode, Tamil Nadu. My work sits at the edge of interface and intelligence — I like taking something ambiguous, a messy website, a manual voting process, an unsorted stack of podcast submissions, and giving it a clean, responsive shape.</p>
+        <p>Most recently I built <strong>batWEB</strong>, a platform that points a vision model at a website's screenshot and comes back with an actual usability verdict. Before that, a real-time voting system that <strong>280+ students</strong> used to elect their department president, class executive members— no paper, no queue, no recount arguments.</p>
+        <p>I work fast with React, Firebase, and I'm comfortable being the one who ships the AI-assisted feature nobody else on the team wants to touch yet.</p>
+      </div>
+      <div class="glass-panel reveal">
+        <div class="stat-row"><span class="stat-label">Based in</span><span class="stat-value">Erode, Tamil Nadu, India</span></div>
+        <div class="stat-row"><span class="stat-label">Originally from</span><span class="stat-value">Palani, Tamil Nadu, India</span></div>
+        <div class="stat-row"><span class="stat-label">Studying</span><span class="stat-value">B.Sc CS · Graduate 2027</span></div>
+        <div class="stat-row"><span class="stat-label">Core stack</span><span class="stat-value">React · Firebase </span></div>
+        <div class="stat-row"><span class="stat-label">Shipped projects</span><span class="stat-value">3 live</span></div>
+        <div class="stat-row"><span class="stat-label">Users reached</span><span class="stat-value">280+ (NASC vote)</span></div>
+        <div class="stat-row"><span class="stat-label">Languages</span><span class="stat-value">Tamil · English</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <div>
+        <div class="sec-title">Skills</div>
+        <div class="sec-sub">Signal strength across the stack.</div>
+      </div>
+    </div>
+    <div class="skills-wrap">
+      <div class="radar-box reveal" id="radarBox">
+        <svg viewBox="0 0 340 340">
+          <polygon class="radar-grid" points="170,40 300,170 170,300 40,170"/>
+          <polygon class="radar-grid" points="170,75 265,170 170,265 75,170"/>
+          <polygon class="radar-grid" points="170,110 230,170 170,230 110,170"/>
+          <polygon class="radar-grid" points="170,145 195,170 170,195 145,170"/>
+          <line class="radar-grid" x1="170" y1="40" x2="170" y2="300"/>
+          <line class="radar-grid" x1="40" y1="170" x2="300" y2="170"/>
+          <polygon class="radar-shape" id="radarShape" points="170,53 274,170 170,235 79,170"/>
+          <circle class="radar-point" cx="170" cy="53" r="3.5"/>
+          <circle class="radar-point" cx="274" cy="170" r="3.5"/>
+          <circle class="radar-point" cx="170" cy="235" r="3.5"/>
+          <circle class="radar-point" cx="79" cy="170" r="3.5"/>
+          <text class="radar-label" x="170" y="28" text-anchor="middle">FE</text>
+          <text class="radar-label" x="308" y="174" text-anchor="start">AI/API</text>
+          <text class="radar-label" x="170" y="318" text-anchor="middle">DEPLOY &amp; TOOLS</text>
+          <text class="radar-label" x="32" y="174" text-anchor="end">BE</text>
+        </svg>
+      </div>
+      <div class="skill-cols reveal">
+        <div class="skill-card">
+          <h4>Frontend</h4>
+          <ul>
+            <li>React.js · JavaScript (ES6+)</li>
+            <li>HTML5 · CSS3 · Tailwind CSS</li>
+            <li>Vite · Responsive Web Design</li>
+            <li>Framer Motion · Glassmorphism</li>
+            <li>Accessibility (A11y)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>AI &amp; APIs</h4>
+          <ul>
+            <li>OpenRouter API</li>
+            <li>Vision LLM integration</li>
+            <li>REST APIs</li>
+            <li>AI-assisted development</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Backend &amp; Data</h4>
+          <ul>
+            <li>Firebase Auth · Cloud Firestore</li>
+            <li>Node.js · MongoDB (working)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Deploy &amp; Languages</h4>
+          <ul>
+            <li>Netlify · Vercel · Cloudinary</li>
+            <li>PWABuilder · Git/GitHub</li>
+            <li>Python · Java · C/C++ · R</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <div>
+        <div class="sec-title">Projects</div>
+        <div class="sec-sub">Four builds, three live and one local. Tap a card to expand.</div>
+      </div>
+    </div>
+
+    <div class="project reveal">
+      <div class="proj-top">
+        <div class="proj-name">batWEB<span class="sub">AI-powered website intelligence platform</span></div>
+        <a class="proj-link magnetic" href="https://batwebai.vercel.app/" target="_blank" rel="noopener">Live project ↗</a>
+      </div>
+      <p class="proj-desc">Points a vision LLM at a website's screenshot and returns real usability, accessibility, and performance verdicts. Built a custom <strong>BWscore</strong>, a radar-chart analytics dashboard, and exportable technical PDF reports covering Core Web Vitals and semantic HTML.</p>
+      <div class="tag-row">
+        <span class="tag">React.js</span><span class="tag">Vite</span><span class="tag">Tailwind CSS</span>
+        <span class="tag">Framer Motion</span><span class="tag">OpenRouter Vision API</span>
+      </div>
+      <button class="proj-expand-btn"><b>Implementation notes</b><span class="chev">⌄</span></button>
+      <div class="proj-detail"><div class="proj-detail-inner">Screenshots are sent to a vision-capable model via OpenRouter, which returns structured findings on layout, contrast, and semantic markup. Those findings feed a weighted scoring function (BWscore) and render into a radar chart plus a downloadable PDF report — the same pattern used for the skill chart on this page.</div></div>
+    </div>
+
+    <div class="project reveal">
+      <div class="proj-top">
+        <div class="proj-name">batHouse<span class="sub">Social networking & messaging platform</span></div>
+        <a class="proj-link magnetic" href="https://bathouse.netlify.app/" target="_blank" rel="noopener">Live project ↗</a>
+      </div>
+      <p class="proj-desc">A responsive one-to-one messaging app with image and video sharing. Firebase Auth and Firestore handle identity and data; Context API and React Router manage state and navigation. Packaged as a PWA and converted to an Android app via PWABuilder.</p>
+      <div class="tag-row">
+        <span class="tag">React.js</span><span class="tag">Firebase</span><span class="tag">Cloudinary</span>
+        <span class="tag">Context API</span><span class="tag">Netlify</span><span class="tag">PWABuilder</span>
+      </div>
+      <button class="proj-expand-btn"><b>Implementation notes</b><span class="chev">⌄</span></button>
+      <div class="proj-detail"><div class="proj-detail-inner">Media uploads route through Cloudinary for compression and delivery, while Firestore listeners keep conversations in sync in real time. The same PWA manifest that runs it in-browser was wrapped through PWABuilder to produce an installable Android package.</div></div>
+    </div>
+
+    <div class="project reveal">
+      <div class="proj-top">
+        <div class="proj-name">NASC Online Voting<span class="sub">Digital election platform for department elections</span></div>
+        <a class="proj-link magnetic" href="https://nascovw.netlify.app/" target="_blank" rel="noopener">Live project ↗</a>
+      </div>
+      <p class="proj-desc">Deployed a real digital ballot for college department elections — <strong>280+ students</strong> voted through it. Firebase Auth and Firestore secured access and vote data; the interface stayed simple enough that nobody needed instructions.</p>
+      <div class="tag-row">
+        <span class="tag">React.js</span><span class="tag">Tailwind CSS</span><span class="tag">Firebase</span><span class="tag">Netlify</span>
+      </div>
+      <button class="proj-expand-btn"><b>Implementation notes </b><span class="chev">⌄</span></button>
+      <div class="proj-detail"><div class="proj-detail-inner">One-vote-per-student was enforced with Firebase Auth tied to college email, and Firestore security rules blocked duplicate ballots at the database layer rather than trusting the client. Results were tallied live and locked at the close of polling.</div></div>
+    </div>
+
+    <div class="project reveal">
+      <div class="proj-top">
+        <div class="proj-name">Batwave<span class="sub">Podcast submission & sharing platform</span></div>
+      </div>
+      <p class="proj-desc">A podcast platform where users submit episodes and admins review before publishing — a small but complete content workflow, built with vanilla JS and Firebase before I moved to React.</p>
+      <div class="tag-row">
+        <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Firebase</span>
+      </div>
+      <button class="proj-expand-btn"><b>Implementation notes </b><span class="chev">⌄</span></button>
+      <div class="proj-detail"><div class="proj-detail-inner">Built pre-React, using vanilla JS to manage submission state and an admin-only approval queue backed by Firebase — the project that pushed me toward component-based frameworks for the next build.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="background">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <div>
+        <div class="sec-title">Background</div>
+        <div class="sec-sub">Education, training, and the record so far.</div>
+      </div>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="tl-item">
+        <div class="tl-when">2023 — 2027 (expected)</div>
+        <div class="tl-what">B.Sc. Computer Science</div>
+        <div class="tl-where">Nandha Arts and Science College · Final year</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-when">Dec 2025 — Jan 2026</div>
+        <div class="tl-what">ERP Software Training</div>
+        <div class="tl-where">SMT Constructions · 15-day program, enterprise application workflows</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-when">Higher Secondary</div>
+        <div class="tl-what">83.33% (500/600)</div>
+        <div class="tl-where">Mahesh Karthik Matric Hr. Sec. School, Akkaraipatti, Palani</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-when">Talentia 2025</div>
+        <div class="tl-what">2nd Place — Short Film Competition</div>
+        <div class="tl-where">Nandha Arts and Science College</div>
+      </div>
+    </div>
+
+    <div style="height:70px"></div>
+    <h4 style="font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-3); margin-bottom:24px;" class="reveal">Certifications</h4>
+    <div class="cert-marquee-wrap reveal">
+      <div class="cert-marquee" id="certMarquee">
+        <div class="cert">JavaScript (Intermediate) — HackerRank</div>
+        <div class="cert">React (Basic) — HackerRank</div>
+        <div class="cert">CSS (Basic) — HackerRank</div>
+        <div class="cert">Frontend Developer (React) — HackerRank</div>
+        <div class="cert">Python (Basic) — HackerRank</div>
+        <div class="cert">Java (Basic) — HackerRank</div>
+        <div class="cert">AI for Beginners — HP LIFE</div>
+        <div class="cert">Professional Networking — HP LIFE</div>
+        <div class="cert">C Programming 101 — Infosys Springboard</div>
+        <div class="cert">Pointers in C — Infosys Springboard</div>
+        <div class="cert">IP Awareness Training — NIPAM</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="contact-card">
+        <div class="contact-title">Have a build in mind? <span class="grad">Let's ping it back and forth.</span></div>
+        <div class="contact-links">
+          <a class="btn btn-primary magnetic" href="https://mail.google.com/mail/?view=cm&fs=1&to=connectwitharulselvan@gmail.com" target="_blank" rel="noopener">Email me</a>
+          <a class="btn btn-outline magnetic" href="assets/Arul_Selvan_N_Resume.pdf" download>Download resume</a>
+          <a class="btn btn-ghost magnetic" href="https://www.linkedin.com/in/arulselvann/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost magnetic" href="https://github.com/arulselvanfd" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>ARUL SELVAN N — FRONTEND DEVELOPER</span>
+  <span>BUILT WITH HTML, CSS &amp; JS · © 2026</span>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
